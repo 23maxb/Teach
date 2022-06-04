@@ -1,7 +1,7 @@
 import java.rmi.UnexpectedException;
 import java.util.Scanner;
 import java.util.Random;
-public class main
+public class Main
 {
     /**
      * runs my progrma
