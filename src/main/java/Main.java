@@ -1,6 +1,6 @@
+import java.rmi.UnexpectedException;
 import java.util.Scanner;
 import java.util.Random;
-//new push
 public class Main
 {
     /**
@@ -31,13 +31,12 @@ public class Main
     }
 
     //save for later if u cant figure it out
-    public static int getUserInput()
+    public static int getUserinput()
     {
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter a number");
         int object = myObj.nextInt();
         return object;
-
     }
 
     //fibbonacci of 1 should return 1
