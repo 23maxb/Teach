@@ -8,7 +8,7 @@ public class Main
      *
      * @param args
      */
-    public static void Main(String[] args)
+    public static void main(String[] args)
     {
         System.out.println(fibbonacci(6));
     }
@@ -31,7 +31,7 @@ public class Main
     }
 
     //save for later if u cant figure it out
-    public static int getUserinput()
+    public static int getUserInput()
     {
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter a number");
