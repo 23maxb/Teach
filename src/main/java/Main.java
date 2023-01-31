@@ -1,10 +1,10 @@
-import java.rmi.UnexpectedException;
 import java.util.Scanner;
 import java.util.Random;
+
 public class Main
 {
     /**
-     * runs my progrma
+     * runs my program
      *
      * @param args
      */
@@ -15,19 +15,12 @@ public class Main
 
     public static int add(int a, int b)
     {
-        return a + b;
+        throw new UnsupportedOperationException("not yet implemented");
     }
 
     public static int exponent(int base, int power)
     {
-        int n = 0;
-        int number = 1;
-        while (n < power)
-        {
-            number = base * number;
-            n++;
-        }
-        return number;
+        throw new UnsupportedOperationException("not yet implemented");
     }
 
     //save for later if u cant figure it out
@@ -41,25 +34,13 @@ public class Main
 
     //fibbonacci of 1 should return 1
     //fibbonacci of 2 should return 1
-    //fibbonacci of 3 should return 2
+    //fibbonacci of 3 should return 2 (1 + 1)
+    //fibbonacci of 4 should return 3 (1 + 2)
+    //fibbonacci of 5 should return 5 (2 + 3)
+    //fibbonacci of 6 should return 8 (3 +  5)
     public static int fibbonacci(int index)
     {
-
-        if ((index == 1) && (index == 2))
-        {
-            return 1;
-        }
-        int n = 0;
-        int a = 1;
-        int fib = 1;
-        while (n < index-2)
-        {
-            int temp = fib;
-            fib = a + fib;
-            a = temp;
-            n++;
-        }
-        return fib;
+        throw new UnsupportedOperationException("not yet implemented");
     }
 
     public static String allCaps(String a)
@@ -105,8 +86,6 @@ public class Main
     //should return a number between a and b (could return a or b also)
     public static boolean getRandomIntBetween(int a, int b)
     {
-        Random rand = new Random();
-        Math.random();
         throw new UnsupportedOperationException("not yet implemented");
     }
 
